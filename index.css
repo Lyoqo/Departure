@@ -1,0 +1,232 @@
+body {
+    margin:0 auto;
+}
+header.header {
+    display: flex;
+    align-items: center;
+   
+}
+header.header img{ 
+    width: 120px;
+
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+section.top-page {
+    background: url("image/manga.png");
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+
+/* Page de bienvenue */
+.landing-page {
+    padding: 20px 50px;
+
+}
+.big-title {
+    font-size: 80px;
+    padding: 0px 65px;
+   
+}
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 160px;
+}
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+}
+nav.nav li a {
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+/* services */
+  
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.service-item {
+display: flex;
+flex-direction: column;
+
+
+}
+
+.delivery-icon {
+font-size: 50px;
+color: #ADD981;
+}
+.service-details {
+    font-weight: 600;
+    width: 200px; 
+    
+}    
+
+/* best sells */
+
+.section-title {
+    font-size: 50px;
+    font-family:cursive ;
+    font-weight: 100;
+    position: relative;
+}
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #ADD981;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.bests-items{
+    margin: 50px;
+}
+
+.Best-manga{
+background-color: red;
+min-height: 500px;
+display: flex;
+flex-wrap: wrap;
+}
+
+.manga-box {
+  position:relative ;
+  background-size: cover;
+  background-position:center ;
+  
+}
+.No-grid {
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+  }
+
+
+
+.manga1{
+    background-image: url("image/onepiece.png"); 
+}
+.manga2{
+    background-image: url("image/narutoshippuden.png"); 
+}
+.manga3{
+    background-image: url("image/nana.png"); 
+}
+.manga4{
+    background-image: url("image/ThepromisedNeverland.png"); 
+}
+
+.manga-details {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #ffffff;
+    opacity: 0.8;
+    padding: 5px 20px;
+    
+}
+.manga-name {
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+    line-height: 3px;
+}
+.manga-price {
+    color: #000000;
+    font-weight: 600;
+    line-height: 3px;
+    font-size: 14px;
+}
+
+/* Nos manga */
+
+.all-manga {
+    margin: 100px;
+}
+
+.manga-grid {
+  display: grid;
+  min-height: 150vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 400px);
+} 
+
+.manga-grid1 {
+ background-image: url("image/onepiece1.png");
+ grid-column: 1/3;
+ grid-row: 1/3 ;
+}
+.manga-grid2 {
+ background-image: url("image/Bleach.png" );
+ grid-column: 3/5;
+    
+    }
+.manga-grid3 {
+ background-image: url("image/YourLieInApril.png.jpg" );
+ grid-column: 3/5; 
+ 
+        }
+.manga-grid4 {
+ background-image: url("image/DemonSlayer.png" );
+ grid-column: 1;           
+            }
+.manga-grid5 {
+ background-image: url("image/Naruto.png" );
+                
+                }
+.manga-grid6 {
+ background-image: url("image/Erased.png" );
+
+}
+
+.manga-grid7 {
+ background-image: url("image/Nana1.png" );
+
+   }
+
+.manga-grid8 {
+ background-image: url("image/ThepromisedNeverlan1.png" );
+   grid-column: 1/3;
+   }
+.manga-grid9 {
+ background-image: url("image/GTO.png" );
+      
+      }
+.manga-grid10 {
+ background-image: url("image/Sevendeadlysins.png" );
+             
+             }      
+
+/* pied de page */
+
+footer{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 20px  100px;
+   font-weight: 600;
+}
+
+footer a.cgv {
+   text-decoration: none;
+   color: #000000;
+
+}
